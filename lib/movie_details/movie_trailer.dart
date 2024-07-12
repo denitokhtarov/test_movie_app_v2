@@ -42,7 +42,7 @@ class _MovieTrailerState extends State<MovieTrailer> {
             initialVideoId: trailerId!.items[0].id!.videoId!,
             flags: const YoutubePlayerFlags(
               autoPlay: true,
-              mute: true,
+              mute: false,
             ),
           ),
           showVideoProgressIndicator: true,
